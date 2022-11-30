@@ -28,7 +28,7 @@ animation = ["10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100
 animation = ["\033[0;93m[■□□□□□□□□□]","\033[0;94m[■■□□□□□□□□]", "\033[0;92m[■■■□□□□□□□]", "\033[0;91m[■■■■□□□□□□]", "\033[0;97m[■■■■■□□□□□]", "\033[0;32m[■■■■■■□□□□]", "\033[0;94m[■■■■■■■□□□]", "\033[0;93m[■■■■■■■■□□]", "\033[0;91m[■■■■■■■■■□]", "\033[0;92m[■■■■■■■■■■]"]
 
 for i in range(len(animation)):
-    time.sleep(2)
+    time.sleep(0.3)
     sys.stdout.write("\r" + animation[i % len(animation)])
     sys.stdout.flush()
 
@@ -86,7 +86,7 @@ Thanks : ZoneExploiter & CytoXploit
 os.system('clear')
 try:
     print(bannerpy3)
-    print (y+' ['+w+'#'+y+'] '+w+'\033[0;93m➣Example '+y+':'+w+'\033[0;94m /sdcard/nayan.py\n')
+    print (y+' ['+w+'#'+y+'] '+w+'\033[0;93m➣Example '+y+':'+w+'\033[0;94m /sdcard/DEVIL.py\n')
     file = input(y+' ['+w+'?'+y+'] '+w+'\033[0;92mInput your file location'+y+' :'+w+' ')
     print()
     nn = input(y+' ['+w+'?'+y+'] '+w+'\033[0;92mInter Output File Name'+y+' :'+w+' ')
